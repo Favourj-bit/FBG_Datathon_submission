@@ -85,21 +85,22 @@ The Data Engineering ETL (Extract, Transform, Load) process for the agricultural
 
 ### Data Ingestion
 
-In this initial stage, raw sensor data from various sources were collected and ingested into the ETL pipeline. These sources could include sensors placed in fields, weather stations, or other monitoring devices.
-Data connectors and pipelines were established to extract data in various formats (e.g., CSV, JSON, IoT protocols) and from different sources.
+- In this initial stage, raw sensor data from various sources were collected and ingested into the ETL pipeline. These sources could include sensors placed in fields, weather stations, or other monitoring devices.
+- Data connectors and pipelines were established to extract data in various formats (e.g., CSV, JSON, IoT protocols) and from different sources.
 
 ### Data Transformation (Data Cleaning):
 
-This stage involved cleaning and transforming the raw data to make it suitable for analysis and storage.
-Data cleaning processes included handling missing or inconsistent data, removing duplicates, and addressing data quality issues.
-Data from different sources were harmonized and standardized to ensure consistency.
-Aggregations and calculations might have been performed to derive new metrics or features.
-Timestamps and geospatial data could be normalized for uniformity.
+- This stage involved cleaning and transforming the raw data to make it suitable for analysis and storage.
+- Data cleaning processes included handling missing or inconsistent data, removing duplicates, and addressing data quality issues.
+- Data from different sources were harmonized and standardized to ensure consistency.
+- Aggregations and calculations might have been performed to derive new metrics or features.
+- Timestamps and geospatial data could be normalized for uniformity.
 
 ### Data Loading into Facts and Dimension Tables
 
-Once the data was transformed and cleaned, it was loaded into structured tables within the Snowflake data warehouse.
-The schema typically included Fact tables, which contained the core data for analysis (e.g., sensor readings, crop yields), and Dimension tables that provided context (e.g., location, crop types, weather information).
-Proper indexing and partitioning strategies were applied to optimize query performance.
-Historical data might be appended to existing tables or stored separately for archival purposes.
+- Once the data was transformed and cleaned, it was loaded into structured tables within the Snowflake data warehouse.
+- The schema typically included Fact tables, which contained the core data for analysis (e.g., sensor readings, crop yields), and Dimension tables that provided context (e.g., location, crop types, weather information).
+- Proper indexing and partitioning strategies were applied to optimize query performance.
+- Historical data might be appended to existing tables or stored separately for archival purposes.
+
 The end goal of this ETL process was to provide a structured and organized data repository that enables efficient querying and analysis. This structured data could then be used to generate insights, make informed decisions, and support various applications in the agricultural monitoring system, such as crop management, irrigation optimization, and yield prediction.
