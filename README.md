@@ -25,7 +25,7 @@ This Readme Contains details about Data Science Project and the Data Engineering
 
 ### Introduction
 
-The Fraud Detection dataset is essential for improving the security of our online payment platform by developing a predictive model to detect fraudulent transactions using transaction and user data collected over time.
+The Fraud Detection dataset is essential for improving the security of our online payment platform by developing a predictive model to detect fraudulent transactions using transaction and user data collected over time. `_FBG1200.ipynb` contains all the work that was done for the data science project.
 
 ### Objectives
 
@@ -81,7 +81,7 @@ We leveraged feature importance analyses to inform feature selection and iterati
 
 ### Overview
 
-The Data Engineering ETL (Extract, Transform, Load) process for the agricultural monitoring system was designed to convert raw sensor data into structured fact and dimension tables within our Snowflake data warehouse. This transformation aimed to generate organized and actionable information. The ETL process consisted of three key stages: Data Ingestion, Data Transformation (including Data Cleaning), and Data Loading into Facts and Dimension Tables.
+The Data Engineering ETL (Extract, Transform, Load) process for the agricultural monitoring system was designed to convert raw sensor data into structured fact and dimension tables within our Snowflake data warehouse. This transformation aimed to generate organized and actionable information. The ETL process consisted of three key stages: Data Ingestion, Data Transformation (including Data Cleaning), and Data Loading into Facts and Dimension Tables. The files used for the Data Engineering task is location in the `de_task` folder.
 
 ### Data Ingestion
 
